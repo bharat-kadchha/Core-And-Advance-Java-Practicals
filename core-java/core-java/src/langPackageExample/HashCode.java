@@ -15,6 +15,6 @@ public class HashCode {
 
 		Hash obj = new Hash();
 		System.out.println(obj.hashCode()); // over ride method
-		System.out.println(obj.toString()); // call toString and then hashcode value convert in to hax. value
+		System.out.println(obj.toString()); // call toString and then hashcode value convert in to hash value
 	}
 }

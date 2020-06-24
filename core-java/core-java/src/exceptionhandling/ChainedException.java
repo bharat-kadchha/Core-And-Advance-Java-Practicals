@@ -6,8 +6,8 @@ public class ChainedException {
 	public static void main(String[] args) {
 		try {
 			devide(10, 0);
-		} catch (ArithmeticException e) { // also(throwable ae) as par hierarchy
-
+			
+		} catch (ArithmeticException e) { 
 			System.out.println("orignal =" + e);
 			System.out.println("cause =" + e.getCause());
 

@@ -11,6 +11,7 @@ public class CreateFile {
 		// here not create a file ,,it is just javafile object reference to ("file1.txt")
 
 		System.out.println("does exist ?" + fileObj1.exists());
+		
 		fileObj1.createNewFile(); // physically file created using this method..
 
 		File fileObj2 = new File("F:/new Folder");

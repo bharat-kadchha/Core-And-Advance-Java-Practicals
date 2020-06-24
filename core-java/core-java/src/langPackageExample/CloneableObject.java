@@ -27,10 +27,12 @@ public class CloneableObject implements Cloneable { // java.lang.cloneable inter
 
 }
 /*
- * advantage==1=no need to write lengthy code 2=Easily copy object to another
- * 3=fast clone()
+ * advantage== 1 = no need to write lengthy code
+ * 			   2 = Easily copy object to another
+ * 			   3 = fast clone()
  * 
- * disadvantage=1 == use clone() then write different line of code 2== handle
- * exception 3==clone() dosen't invoke constructor 4==clone() method inherits
- * from another super class.
+ * disadvantage== 1 = use clone() then write different line of code
+ * 				  2 = handle exception 
+ * 				  3 = clone() dosen't invoke constructor 
+ * 				  4 = clone() method inherits from another super class.
  */

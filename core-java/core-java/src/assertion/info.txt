@@ -1,3 +1,6 @@
+
+
+
 its is mainly use for testing purpose.it will check expression or line of code before running.
 if expression is false then JVM throw Assertion error.
 its default disable.we can enable it.

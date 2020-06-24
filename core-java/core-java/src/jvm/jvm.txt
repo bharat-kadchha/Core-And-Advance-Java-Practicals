@@ -36,7 +36,7 @@ class loading
 			
 			it is capable to load class in side exe folder.
 			it is child of BootStrap.
-			PATH : java/hre/lib/exe
+			PATH : java/jre/lib/exe
 			
 	System/Application class loader :
 			

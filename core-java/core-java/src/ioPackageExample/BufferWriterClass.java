@@ -13,8 +13,7 @@ public class BufferWriterClass {
 		BufferedWriter bw = new BufferedWriter(fw);
 
 		bw.write(98);
-		bw.newLine(); // newline not possible in FileWriter so its method to goto newline in
-						// BufferedWriter
+		bw.newLine(); // newline not possible in FileWriter so its method to goto newline in BufferedWriter
 
 		String s = new String("hello\n"); // \n not work
 		bw.write(s);

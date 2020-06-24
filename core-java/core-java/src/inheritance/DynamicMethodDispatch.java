@@ -9,7 +9,7 @@ class FristClass {
 class SecondClass extends FristClass {
 	// overriding method()
 	void method() {
-		System.out.println("Inside B's m1 method");
+		System.out.println("Inside SecondClass's m1 method");
 	}
 }
 

@@ -1,10 +1,6 @@
 package leb_1;
 
-class MethodcClass {
-	public void name() {
-		System.out.println("name");
-	}
-}
+
 
 public class AccessSpecifier {
 
@@ -21,6 +17,6 @@ public class AccessSpecifier {
 	}
 
 	private void privateMethod() {
-		System.out.println("p2 private method");
+		System.out.println("p1 private method");
 	}
 }

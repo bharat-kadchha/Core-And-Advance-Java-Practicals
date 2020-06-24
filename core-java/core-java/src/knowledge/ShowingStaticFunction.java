@@ -25,8 +25,7 @@ public class ShowingStaticFunction {
 
 	public static void main(String[] args) {
 
-		A a = new B(); // static function call of that class which class object call it.so a.start()
-						// call.
+		A a = new B(); // static function call of that class which class object call it.so a.start() call.
 		a.start();
 
 		a.run(); // here non-static function belong instance class B.so call b Class function.

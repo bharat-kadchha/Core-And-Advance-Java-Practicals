@@ -5,8 +5,7 @@ public class DemoClass {
 
 	public static void main(String[] args) {
 
-		// 1=eligible for gc
-		// 0=not eligible for gc
+	
 
 		DemoClass demo1 = new DemoClass(); // 0
 		DemoClass demo2 = new DemoClass(); // 0
