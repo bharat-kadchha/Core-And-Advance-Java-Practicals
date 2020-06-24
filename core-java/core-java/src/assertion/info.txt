@@ -1,0 +1,14 @@
+its is mainly use for testing purpose.it will check expression or line of code before running.
+if expression is false then JVM throw Assertion error.
+its default disable.we can enable it.
+
+ENABLE--java -ea Class_name DISABLE--java -da Class_name
+
+ why it is use ?
+
+		 to make sure over condition is logically true.
+		 check object state.
+		 to check unreachable code
+		 at runtime assert will disable.
+
+		 assertion and exception handling are different.

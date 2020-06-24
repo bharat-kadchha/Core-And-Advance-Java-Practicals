@@ -1,0 +1,44 @@
+
+
+JVM  java virtual machine
+
+	JVM parts of JRE.
+	it is run time java engine which runs .class files and get desired output.
+	
+	first its find main method and run it.
+
+	java follows  WORA.(WRITE ONCES RUN ANYWHERE).java file compile in to .class file and then its run after some steps.
+	
+	
+there are mainly 3 activities of whole JVM
+	
+	1  loading
+		class loader read .class file and generate binary code and store in to method area of JVM.  
+		
+		store information related to the names of file and interfaces of variable methods ,etc
+
+	2  linking
+
+			Verification : check the class file names are proper
+			Preparation  : allocate memory in to heap by JVM.
+			Resolution  : replace symbolic references.
+			
+	3  initializing
+	
+	
+class loading 
+	Bootstrap class loader :
+			
+			it is capable to loading the class.
+			PATH : java/jre/lib 
+			
+	Extension class loader :
+			
+			it is capable to load class in side exe folder.
+			it is child of BootStrap.
+			PATH : java/hre/lib/exe
+			
+	System/Application class loader :
+			
+			it is capable to load class for application class path.
+			it is child of Extension.
