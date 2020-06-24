@@ -1,5 +1,5 @@
 # CORE JAVA
-### these both directory only for core java helps you to perform the different JAVA programs.
+### these both directory only for core java,its helps you to perform the different JAVA programs.
 
  - **core-java** :
     - this directory contain different programs basic to advance,JAVA language features, extra conding concepts for the extra knowledge.
