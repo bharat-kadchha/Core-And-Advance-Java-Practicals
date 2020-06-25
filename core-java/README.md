@@ -5,6 +5,9 @@
     - this directory contain different programs basic to advance,JAVA language features, extra conding concepts for the extra knowledge.
  - **lab-manual** :
     - this directory contian a practicals for the student of _GTU_ for their assignments and practicals notes.
+ - **advance-concept** :
+    - this directory contian some extra practicals.like java mail, encrypt-decrypt, security, JSON parsing etc.
+
  - here,in this project i have to user `java-8`. so you have to use `java-8` or `java-8+` version of JDK.
 
 # SUPPORT
