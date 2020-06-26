@@ -1,6 +1,6 @@
 ## extra library requirment
 ***
-- requriment of extrenal library to perform the programs of following directory. 
+- requriment of extrenal library to perform the programs of following projects. 
     - object_mapper :
         1. download jar : [jackson-all.jar](http://www.java2s.com/Code/Jar/j/Downloadjacksonall190jar.htm "www.java2s.com")
     - json_parsing :

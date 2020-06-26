@@ -1,14 +1,14 @@
 # CORE JAVA
-### these both directory only for core java,its helps you to perform the different JAVA programs.
+### these projects for core java its helps you to perform the different JAVA programs.
 
  - **core-java** :
-    - this directory contain different programs basic to advance,JAVA language features, extra conding concepts for the extra knowledge.
+    - this project contain different programs basic to advance,JAVA language features, extra conding concepts for the extra knowledge.
  - **lab-manual** :
-    - this directory contian a practicals for the student of _GTU_ for their assignments and practicals notes.
+    - this project contian a practicals for the student of _GTU_ for their assignments and practicals notes as a _GTU_ syllabus.
  - **advance-concept** :
-    - this directory contian some extra practicals.like java mail, encrypt-decrypt, security, JSON parsing etc.
+    - this project contian some extra practicals.like java mail, encrypt-decrypt, security, JSON parsing etc.
 
- - here,in this project i have to user `java-8`. so you have to use `java-8` or `java-8+` version of JDK.
+ - here,in these projects i have used `java-8`. so you have to use `java-8` or `java-8+` version of JDK.
 
 # SUPPORT
 I inspired to learn java language from **prof Ashutosh Abhangi**, who takes java as a subject of a Bachelor's degree, and he teaches theory with practical knowledge and introduce to student with new technology.
