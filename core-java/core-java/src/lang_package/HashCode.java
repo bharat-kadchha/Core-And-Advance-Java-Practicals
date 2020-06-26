@@ -1,4 +1,4 @@
-package langPackageExample;
+package lang_package;
 
 class Hash {
 	String s1 = "abcdefg";

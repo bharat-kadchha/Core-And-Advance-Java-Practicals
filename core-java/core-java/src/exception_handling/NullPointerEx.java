@@ -1,4 +1,4 @@
-package exceptionhandling;
+package exception_handling;
 
 public class NullPointerEx {
 	public static void main(String[] args) {

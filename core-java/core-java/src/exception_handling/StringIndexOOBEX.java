@@ -1,4 +1,4 @@
-package exceptionhandling;
+package exception_handling;
 
 public class StringIndexOOBEX {
 	public static void main(String[] args) {

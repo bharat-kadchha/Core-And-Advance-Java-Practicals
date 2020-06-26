@@ -1,4 +1,4 @@
-package operatorAndloop;
+package operator_and_loop;
 
 public class LogicalOprerator {
 

@@ -1,4 +1,4 @@
-package enumDemo;
+package enumdemo;
 
 //We can’t create enum objects explicitly and hence we can’t invoke enum constructor directly.
 

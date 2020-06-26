@@ -1,4 +1,4 @@
-package interfaceExample;
+package interface_example;
 
 interface FristInterface {
 	int x = 100; // every variable public,static,final

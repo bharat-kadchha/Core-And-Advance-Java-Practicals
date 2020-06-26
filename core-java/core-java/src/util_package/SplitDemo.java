@@ -1,4 +1,4 @@
-package utilPackageExample;
+package util_package;
 
 import java.util.StringTokenizer;
 

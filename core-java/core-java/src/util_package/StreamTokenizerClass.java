@@ -1,4 +1,4 @@
-package utilPackageExample;
+package util_package;
 
 import java.io.FileReader;
 import java.io.IOException;

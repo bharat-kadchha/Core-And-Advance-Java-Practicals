@@ -1,4 +1,4 @@
-package garbagecollector;
+package garbage_collector;
 
 import java.util.Date;
 

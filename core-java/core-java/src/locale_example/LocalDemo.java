@@ -1,4 +1,4 @@
-package localeDemo;
+package locale_example;
 
 import java.util.Locale;
 import java.util.ResourceBundle;

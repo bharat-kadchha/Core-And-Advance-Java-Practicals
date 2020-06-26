@@ -1,4 +1,4 @@
-package garbagecollector;
+package garbage_collector;
 
 public class FinalizeDemo {
 	public static void main(String[] args) {

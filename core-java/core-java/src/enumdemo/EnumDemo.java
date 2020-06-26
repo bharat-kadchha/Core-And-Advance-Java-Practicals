@@ -1,4 +1,4 @@
-package enumDemo;
+package enumdemo;
 
 //Enum declaration can be done outside a Class or inside a Class but not inside a Method
 enum Bike {

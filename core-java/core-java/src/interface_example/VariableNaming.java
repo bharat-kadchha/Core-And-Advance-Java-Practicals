@@ -1,4 +1,4 @@
-package interfaceExample;
+package interface_example;
 
 interface Testinterface1 {
 	int x = 100;

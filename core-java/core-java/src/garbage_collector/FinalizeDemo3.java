@@ -1,4 +1,4 @@
-package garbagecollector;
+package garbage_collector;
 
 // after 10000 obj create there is some memory problem then  jvm->gc->finalize()
 // here some obj destroy and memory problem resolve.

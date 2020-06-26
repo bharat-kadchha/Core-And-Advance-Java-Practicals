@@ -1,6 +1,6 @@
 package varagrs;
 
-public class Varargs1 {
+public class VarargsMethod {
 
 	static void m1(int... x) {
 		System.out.println("hello");

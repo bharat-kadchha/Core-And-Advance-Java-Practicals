@@ -1,4 +1,4 @@
-package langPackageExample;
+package lang_package;
 
 class Myclass {
 	String s1 = "abcdefg";

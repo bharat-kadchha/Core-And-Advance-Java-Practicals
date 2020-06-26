@@ -1,4 +1,4 @@
-package utilPackageExample;
+package util_package;
 
 public class StringClass {
 	public static void main(String[] args) {

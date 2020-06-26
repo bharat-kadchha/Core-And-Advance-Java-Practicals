@@ -1,4 +1,4 @@
-package interfaceExample;
+package interface_example;
 
 interface left1 {
 	void show();

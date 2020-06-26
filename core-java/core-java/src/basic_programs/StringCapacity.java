@@ -1,4 +1,4 @@
-package basicPrograms;
+package basic_programs;
 
 public class StringCapacity {
 	public static void main(String[] args) {

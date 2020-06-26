@@ -1,4 +1,4 @@
-package enumDemo;
+package enumdemo;
 
 enum Student {
 	NAME, CITY, ENROLL;

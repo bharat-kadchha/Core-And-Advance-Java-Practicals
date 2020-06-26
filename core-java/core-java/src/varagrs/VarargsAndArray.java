@@ -1,6 +1,6 @@
 package varagrs;
 
-public class Varargs {
+public class VarargsAndArray {
 
 	static void test1(int v[]) {
 		System.out.print("Number of args: " + v.length + " Contents: ");

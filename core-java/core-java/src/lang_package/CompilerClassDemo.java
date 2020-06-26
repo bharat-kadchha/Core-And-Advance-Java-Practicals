@@ -1,4 +1,4 @@
-package langPackageExample;
+package lang_package;
 
 public class CompilerClassDemo {
 

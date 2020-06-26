@@ -1,6 +1,6 @@
 package varagrs;
 
-public class ABC {
+public class VarargsSimple {
 
 	public static void main(String... a) {
 

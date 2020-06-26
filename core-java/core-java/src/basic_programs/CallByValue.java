@@ -1,4 +1,4 @@
-package basicPrograms;
+package basic_programs;
 
 public class CallByValue {
 	int number = 30;
