@@ -1,0 +1,16 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<tag>
+		<name>Hello</name>
+		<tag-class>com.Mytag</tag-class>
+	</tag>
+	<tag>
+		<name>design</name>
+		<tag-class>com.DesignTag</tag-class>
+	</tag>
+	<tag>
+		<name>hello</name>
+		<tag-class>com.Hello</tag-class>
+	</tag>
+</taglib>
