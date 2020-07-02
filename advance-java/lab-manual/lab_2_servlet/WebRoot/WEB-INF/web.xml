@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app.xsd">
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+  <servlet>
+    <servlet-name>LifeCycle</servlet-name>
+    <servlet-class>com.LifeCycle</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LifeCycle</servlet-name>
+    <url-pattern>/servlet/LifeCycle</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>GenericDemo</servlet-name>
+    <servlet-class>com.GenericDemo</servlet-class>
+    
+    <init-param>
+    <param-name>port</param-name>
+    <param-value>8081</param-value>
+  </init-param>
+ 
+  <init-param>
+    <param-name>ip</param-name>
+    <param-value>"localhost"</param-value>
+  </init-param>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>GenericDemo</servlet-name>
+    <url-pattern>/servlet/GenericDemo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>httpServlet</servlet-name>
+    <servlet-class>com.HttpServletDemo</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>httpServlet</servlet-name>
+    <url-pattern>/servlet/httpServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>httpMethod</servlet-name>
+    <servlet-class>com.MethodsOfReq</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>httpMethod</servlet-name>
+    <url-pattern>/servlet/httpMethod</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>httpMethodResp</servlet-name>
+    <servlet-class>com.MethodsOfResp</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>httpMethodResp</servlet-name>
+    <url-pattern>/servlet/httpMethodResp</url-pattern>
+  </servlet-mapping>
+  
+  
+  <context-param>
+  
+  <param-name>city</param-name>
+  <param-value>"hariyana"</param-value>
+  </context-param>
+   <context-param>
+  
+  <param-name>state</param-name>
+  <param-value>"rajeshthan"</param-value>
+  </context-param>
+  
+  <servlet>
+    <servlet-name>ContextAndConfig</servlet-name>
+    <servlet-class>com.ContextAndConfig</servlet-class>
+    
+    <init-param>
+    		<param-name>city</param-name>
+    		<param-value>"junagadh"</param-value>
+    </init-param>
+    <init-param>
+    		<param-name>State</param-name>
+    		<param-value>"gujrat"</param-value>
+    </init-param> 
+    
+  </servlet>
+
+  <servlet>
+    <servlet-name>calibration</servlet-name>
+    <servlet-class>com.ServletCollobration</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>calibration</servlet-name>
+    <url-pattern>/servlet/Collobration</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Forward</servlet-name>
+    <servlet-class>com.Forward</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Forward</servlet-name>
+    <url-pattern>/servlet/forward</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+    <servlet-name>include</servlet-name>
+    <servlet-class>Include</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>include</servlet-name>
+    <url-pattern>/servlet/include</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>UrlDemo</servlet-name>
+    <servlet-class>url_rewriting.UrlDemo</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UrlDemo</servlet-name>
+    <url-pattern>/servlet/UrlDemo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>getData</servlet-name>
+    <servlet-class>url_rewriting.GetData</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>getData</servlet-name>
+    <url-pattern>/servlet/getUrl</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>hiddenData</servlet-name>
+    <servlet-class>hidden_field.HiddenDemo</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>hiddenData</servlet-name>
+    <url-pattern>/servlet/hiddendemo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>hiddenDataHandle</servlet-name>
+    <servlet-class>hidden_field.GetHidden</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>hiddenDataHandle</servlet-name>
+    <url-pattern>/servlet/gethidden</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>cookieData1</servlet-name>
+    <servlet-class>cookie.CookieDemo</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>cookieData1</servlet-name>
+    <url-pattern>/servlet/cookiedemo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>cookieDataHandle</servlet-name>
+    <servlet-class>cookie.GetCookie</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>cookieDataHandle</servlet-name>
+    <url-pattern>/servlet/getcookie</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>sessionDemo1</servlet-name>
+    <servlet-class>session.SessionDemo</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>sessionDemo1</servlet-name>
+    <url-pattern>/servlet/SessionDemo1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>GetSession</servlet-name>
+    <servlet-class>session.GetSession</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>GetSession</servlet-name>
+    <url-pattern>/servlet/GetSession</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>Checking</servlet-name>
+    <servlet-class>LoginLogout.Checking</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Checking</servlet-name>
+    <url-pattern>/login/CheckDemo</url-pattern>
+  </servlet-mapping>
+  
+ 
+  
+  <servlet>
+    <servlet-name>profile</servlet-name>
+    <servlet-class>loginlogout.Profile</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>profile</servlet-name>
+    <url-pattern>/login/profile</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>loginlogout.Logout</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/login/logout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>LoginTest</servlet-name>
+    <servlet-class>loginlogout.LoginTest</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LoginTest</servlet-name>
+    <url-pattern>/Login/test</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
