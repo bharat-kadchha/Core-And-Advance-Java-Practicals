@@ -1,0 +1,26 @@
+
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <error-page>
+  <exception-type>java.lang.Exception</exception-type>
+  <location>/JspPages/Success.jsp</location>
+  </error-page>
+  
+  	<servlet>
+  	
+  	<servlet-name>mail</servlet-name>
+  	<servlet-class>com.MailSend</servlet-class>
+  	</servlet>
+  	<servlet-mapping>
+  	
+  	<servlet-name>mail</servlet-name>
+  	<url-pattern>/mailSend</url-pattern>
+  	</servlet-mapping>
+</web-app>
