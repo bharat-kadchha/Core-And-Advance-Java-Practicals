@@ -1,4 +1,4 @@
-package com;
+package org;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,17 +12,15 @@ public class ConnectionWithMySql {
 			Class.forName("com.mysql.jdbc.Driver");
 			System.out.println("connection established..");
 
-			Connection connection = DriverManager
-					.getConnection("jdbc:mysql://localhost:3306/studentdata","root","123456");
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdata",
+							"root", "123456");
 			Statement statement = connection.createStatement();
 
 			ResultSet resultSet = statement.executeQuery("select * from employee");
 
-			while(resultSet.next())
-			{
-				System.out.println(resultSet.getString(1)+"--"+resultSet.getString(2));
+			while (resultSet.next()) {
+				System.out.println(resultSet.getString(1) + "--"+ resultSet.getString(2));
 			}
-			
 
 		} catch (Exception e) {
 			e.printStackTrace();

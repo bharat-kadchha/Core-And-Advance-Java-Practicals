@@ -8,16 +8,17 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class GetHidden extends HttpServlet{
+public class GetHidden extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		
-		PrintWriter writer=resp.getWriter();
+
+		PrintWriter printWriter = resp.getWriter();
 		resp.setContentType("text/html");
-		String hiddenName=req.getParameter("hiddenName");
-		
-		writer.print("get data from hidden field="+hiddenName);
+		String hiddenName = req.getParameter("hiddenName");
+
+		printWriter.print("get data from hidden field=" + hiddenName);
+		printWriter.close();
 	}
 }

@@ -18,12 +18,9 @@
 
 		<c:set var="no" value="12" />
 		<sql:update dataSource="${db}" var="rs">  
-			
-			delete from info where id=?;
-			<sql:param value="${no}" />
+			delete from info where id=?;<sql:param value="${no}" />
 		</sql:update>
-		
-		
+
 		<sql:query dataSource="${db}" var="rs">  
 			SELECT * from info;  
 		</sql:query>

@@ -16,35 +16,22 @@
 		<c:set var="s2" value="hello world,,,java programming" />
 		<c:out value="s2==${s2}" />
 		<c:if test="${fn:contains(s1, 'test')}">
-			<p>
-				Found test string
-			</p>
+			<p>	Found test string</p>
 		</c:if>
 
 		<c:if test="${fn:endsWith(s1, '123')}">
-			<p>
-				String ends with 123
-			</p>
+			<p>String ends with 123</p>
 		</c:if>
 
+		<p>Index (1) : ${fn:indexOf(s1, "String")}</p>
+		<p>Index (2) : ${fn:indexOf(s2, "java")}</p>
 
-		<p>
-			Index (1) : ${fn:indexOf(s1, "String")}
-		</p>
-		<p>
-			Index (2) : ${fn:indexOf(s2, "java")}
-		</p>
+		<p>Length of String (1) : ${fn:length(s1)}</p>
+		<p>Length of String (2) : ${fn:length(s2)}</p>
 
-		<p>
-			Length of String (1) : ${fn:length(s1)}
-		</p>
-		<p>
-			Length of String (2) : ${fn:length(s2)}
-		</p>
-
-		<c:set var="s2" value="${fn:replace(s1, 'String', 'integer')}" />
-		<c:out value="${s2}" /><br>
-		<c:set var="s2" value="${fn:toUpperCase(s2)}" />
+		<c:out value="${s2}" />
+		
+		<br><c:set var="s2" value="${fn:toUpperCase(s2)}" />
 		<c:out value="${s2}" />
 	</body>
 </html>

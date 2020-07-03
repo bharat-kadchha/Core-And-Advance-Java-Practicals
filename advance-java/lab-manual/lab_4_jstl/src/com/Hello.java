@@ -14,8 +14,9 @@ public class Hello extends SimpleTagSupport {
 		try {
 			JspWriter out = this.getJspContext().getOut();
 			out.println("Hola");
+			out.close();
 		} catch (Exception e) {
 			e.printStackTrace();
-	}
+		}
 	}
 }

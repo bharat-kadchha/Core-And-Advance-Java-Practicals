@@ -1,4 +1,5 @@
 package com;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -13,15 +14,16 @@ public class LifeCycle implements Servlet {
 
 	public void init(ServletConfig sc) throws ServletException {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	public void service(ServletRequest req, ServletResponse resp)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 
-			PrintWriter pw=resp.getWriter();
-			pw.print("servlet life cycle...");
+		PrintWriter printWriter = resp.getWriter();
+		printWriter.print("servlet life cycle...");
+		printWriter.close();
 	}
 
 	public void destroy() {

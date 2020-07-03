@@ -16,20 +16,22 @@ public class LoginTest extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 
-		PrintWriter pw = resp.getWriter();
+		PrintWriter printWriter = resp.getWriter();
 		resp.setContentType("text/html");
-		HttpSession s=req.getSession();
+		HttpSession session = req.getSession();
 
-	pw.print("your detail can be set to the session<br>");
+		printWriter.print("your detail can be set to the session<br>");
 
-	Enumeration e = s.getAttributeNames();
+		Enumeration enumeration = session.getAttributeNames();
 
-	while (e.hasMoreElements()) {
-		String name = (String) e.nextElement();
-		pw.print(name + " : " + s.getAttribute(name) + "<br>");
+		while (enumeration.hasMoreElements()) {
+			String name = (String) enumeration.nextElement();
+			printWriter.print(name + " : " + session.getAttribute(name) + "<br>");
+		}
+
+		printWriter.print("<br>are you want logout ?");
+		printWriter.print("<a href='/leb_2_servlet/login/Logout'>logout </a>");
+		
+		printWriter.close();
 	}
-
-	pw.print("<br>are you want logout ?");
-	pw.print("<a href='/leb_2_servlet/login/Logout'>logout </a>");
-}
 }

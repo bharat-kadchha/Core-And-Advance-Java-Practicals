@@ -1,4 +1,5 @@
 package com;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -16,8 +17,7 @@ public class ServletCollobration extends HttpServlet {
 		resp.setContentType("text/html");
 		PrintWriter writer = resp.getWriter();
 		String no = req.getParameter("no");
-		writer.print("you enter this--"+no);
-		
+		writer.print("you enter this--" + no);
 
 		if (no.equals("12345")) {
 			req.getRequestDispatcher("/servlet/forward").forward(req, resp);
@@ -25,6 +25,7 @@ public class ServletCollobration extends HttpServlet {
 			req.getRequestDispatcher("/Collobration1.jsp").include(req, resp);
 			writer.print("<b><h4>your are not valid user ... <br> enter only 12345</h4></b>");
 		}
+		writer.close();
 	}
 
 }

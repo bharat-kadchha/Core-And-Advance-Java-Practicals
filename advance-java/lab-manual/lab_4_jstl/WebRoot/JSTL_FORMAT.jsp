@@ -39,23 +39,38 @@
 			Formatted Date (3):
 			<fmt:formatDate type="both" value="${now}" />
 		</p>
-		<p>Formatted Date (4): <fmt:formatDate type = "both" 
-         dateStyle = "short" timeStyle = "short" value = "${now}" /></p>
-      
-      <p>Formatted Date (5): <fmt:formatDate type = "both" 
-         dateStyle = "medium" timeStyle = "medium" value = "${now}" /></p>
-      
-      <p>Formatted Date (6): <fmt:formatDate type = "both" 
-         dateStyle = "long" timeStyle = "long" value = "${now}" /></p>
-      
-      <p>Formatted Date (7): <fmt:formatDate pattern = "yyyy-MM-dd" 
-         value = "${now}" /></p>
-         
-         <fmt:setLocale value="EN"/>
-        <fmt:setBundle basename="com.Demo" var="a"/>  
-<fmt:message key="vegetable.Potato" bundle="${a}"/><br/>  
-   <fmt:message key="vegetable.Tomato" bundle="${a}"/><br/>  
-  <fmt:message key="vegetable.Carrot" bundle="${a}"/><br/> 
-         
+		<p>
+			Formatted Date (4):
+			<fmt:formatDate type="both" dateStyle="short" timeStyle="short"
+				value="${now}" />
+		</p>
+
+		<p>
+			Formatted Date (5):
+			<fmt:formatDate type="both" dateStyle="medium" timeStyle="medium"
+				value="${now}" />
+		</p>
+
+		<p>
+			Formatted Date (6):
+			<fmt:formatDate type="both" dateStyle="long" timeStyle="long"
+				value="${now}" />
+		</p>
+
+		<p>
+			Formatted Date (7):
+			<fmt:formatDate pattern="yyyy-MM-dd" value="${now}" />
+		</p>
+
+		<fmt:setLocale value="EN" />
+		<fmt:setBundle basename="com.Demo" var="a" />
+		<fmt:message key="vegetable.Potato" bundle="${a}" />
+		
+		<br />
+		<fmt:message key="vegetable.Tomato" bundle="${a}" />
+		
+		<br />
+		<fmt:message key="vegetable.Carrot" bundle="${a}" />
+
 	</body>
 </html>

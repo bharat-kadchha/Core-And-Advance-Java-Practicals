@@ -16,22 +16,21 @@ public class Profile extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 
-		PrintWriter pw = resp.getWriter();
+		PrintWriter printWriter = resp.getWriter();
 		resp.setContentType("text/html");
-		HttpSession s=req.getSession();
+		HttpSession s = req.getSession();
 
-		if (s!=null) {
-			//pw.print("login frist<br>");
-			//pw.print("<a href='/leb_2_servlet/login/l'>login </a>");
-		
-			req.getRequestDispatcher("/Login/LoginTest").forward(req,resp);
+		if (s != null) {
+			printWriter.print("login frist<br>");
+			printWriter.print("<a href='/leb_2_servlet/login/l'>login </a>");
 
+			req.getRequestDispatcher("/Login/LoginTest").forward(req, resp);
+
+		} else {
+
+			HttpSession session = req.getSession();
+			req.getRequestDispatcher("/LoginDemo.jsp").include(req, resp);
 		}
-		else
-		{
-
-		//	HttpSession s = req.getSession();
-			req.getRequestDispatcher("/LoginDemo.jsp").include(req,resp);
-	}}
-
+		printWriter.close();
+	}
 }

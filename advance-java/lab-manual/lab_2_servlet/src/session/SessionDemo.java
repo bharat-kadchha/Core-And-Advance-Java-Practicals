@@ -15,29 +15,25 @@ public class SessionDemo extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 
-		PrintWriter pw = resp.getWriter();
+		PrintWriter printWriter = resp.getWriter();
 
-		
 		resp.setContentType("text/html");
-		String s = req.getParameter("name");
-		String p = req.getParameter("password");
+		String name = req.getParameter("name");
+		String password = req.getParameter("password");
 
-		if (s.equals("admin")) {
-			
-			
+		if (name.equals("admin")) {
+
 			HttpSession session = req.getSession();
-			session.setAttribute("name", s);
-			session.setAttribute("password", p);
-			
-			
-			req.getRequestDispatcher("/servlet/GetSession").forward(req,resp);
+			session.setAttribute("name", name);
+			session.setAttribute("password", password);
+
+			req.getRequestDispatcher("/servlet/GetSession").forward(req, resp);
+		} else {
+			req.getRequestDispatcher("/SessionDemo.jsp").include(req, resp);
+			printWriter.print("session create only for admin user");
+
 		}
-		else
-		{
-			req.getRequestDispatcher("/SessionDemo.jsp").include(req,resp);
-			pw.print("session create only for admin user");
-		
-		}
+		printWriter.close();
 
 	}
 

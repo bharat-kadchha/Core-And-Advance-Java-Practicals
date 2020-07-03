@@ -15,51 +15,41 @@ public class Checking extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 
-		PrintWriter pw = resp.getWriter();
+		PrintWriter printWriter = resp.getWriter();
 
-		
 		resp.setContentType("text/html");
-		String s = req.getParameter("name");
-		String p = req.getParameter("password");
-		
-		
-		if (s.equals("admin")) {
-			
-			
+		String name = req.getParameter("name");
+		String pass = req.getParameter("password");
+
+		if (name.equals("admin")) {
+
 			HttpSession session = req.getSession();
-			//if(session.isNew())
-			{session.setAttribute("name", s);
-			session.setAttribute("password", p);
-			session.setAttribute("country","india");
-			session.setAttribute("mail","admin@gmail.com");
-			session.setAttribute("id", session.getId());
-			
-			session.setMaxInactiveInterval(10);
-			
-			
-			pw.print("hello "+session.getAttribute("name"));
-			pw.print("<br>you are log in over site ...");
-			pw.print("<br>can you see the ...");
-			pw.print("<a href='/leb_2_servlet/login/Profile'>profie</a>");
-			pw.print("<br>can you go to  the ...");
-			pw.print("<a href='/leb_2_servlet/login/Logout'>logout</a>");
-			
-			//req.getRequestDispatcher("/login/profile").forward(req,resp);
+			if (session.isNew()) {
+				session.setAttribute("name", name);
+				session.setAttribute("password", pass);
+				session.setAttribute("country", "india");
+				session.setAttribute("mail", "admin@gmail.com");
+				session.setAttribute("id", session.getId());
+
+				session.setMaxInactiveInterval(10);
+
+				printWriter.print("hello " + session.getAttribute("name"));
+				printWriter.print("<br>you are log in over site ...");
+				printWriter.print("<br>can you see the ...");
+				printWriter.print("<a href='/leb_2_servlet/login/Profile'>profie</a>");
+				printWriter.print("<br>can you go to  the ...");
+				printWriter.print("<a href='/leb_2_servlet/login/Logout'>logout</a>");
+
+				req.getRequestDispatcher("/login/profile").forward(req, resp);
+			} else {
+				printWriter.print("frist logout");
 			}
-//		else
-		//	{
-			//	pw.print("frist logout");
-	//		}
-		}
-		else
-		{
-			req.getRequestDispatcher("/LoginDemo.jsp").include(req,resp);
-			pw.print("<b>session create only for admin user</b>");
-			
-		
-		}
+		} else {
+			req.getRequestDispatcher("/LoginDemo.jsp").include(req, resp);
+			printWriter.print("<b>session create only for admin user</b>");
 
+		}
+		printWriter.close();
 	}
-
 
 }

@@ -1,4 +1,4 @@
-package com;
+package org;
 
 import java.sql.*;
 
@@ -16,8 +16,7 @@ public class UseOfODBC {
 			ResultSet resultSet = statement.executeQuery("select * from info");
 
 			while (resultSet.next()) {
-				System.out.println(resultSet.getString(1) + "***"
-						+ resultSet.getString(2));
+				System.out.println(resultSet.getString(1) + "***"+ resultSet.getString(2));
 
 			}
 			connection.close();

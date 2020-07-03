@@ -50,6 +50,8 @@ buildNumber.properties
 .settings/
 bin/
 tmp/
+classes/
+lib/
 .metadata
 .mymetadata
 .classpath

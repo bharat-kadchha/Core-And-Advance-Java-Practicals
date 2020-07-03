@@ -8,16 +8,15 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class GetData extends HttpServlet{
-	
+public class GetData extends HttpServlet {
+
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-	
-		
-		
-		PrintWriter pw=resp.getWriter();
-		pw.print("your data is .."+req.getParameter("name"));
-		
+
+		PrintWriter printWriter = resp.getWriter();
+		printWriter.print("your data is .." + req.getParameter("name"));
+
+		printWriter.close();
 	}
 }

@@ -16,11 +16,12 @@ public class GetCookie extends HttpServlet {
 			throws ServletException, IOException {
 
 		resp.setContentType("text/html");
-		PrintWriter out = resp.getWriter();
-		
-		Cookie c[]=req.getCookies();
-		for(Cookie c1:c)
-		out.println(c1.getName()+"="+c1.getValue());
-		
+		PrintWriter printWriter = resp.getWriter();
+
+		Cookie c[] = req.getCookies();
+		for (Cookie c1 : c)
+			printWriter.println(c1.getName() + "=" + c1.getValue());
+
+		printWriter.close();
 	}
 }
