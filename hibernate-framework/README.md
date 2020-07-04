@@ -13,9 +13,9 @@
 
 ## DEPENDENCY REQUIREMENT :
   - download jar file or add dependency to your POM.XML . 
-   1.  hibernate-core(5.14)  : [download]("https://mvnrepository.com/artifact/org.hibernate/hibernate-core/5.4.0.Final")
-   2.  project-LOMBOK        : [download]("https://mvnrepository.com/artifact/org.projectlombok/lombok/1.18.8")
-   3.  mysql-connector-java  : [download]("https://mvnrepository.com/artifact/mysql/mysql-connector-java/5.1.47")
+   1.  hibernate-core(5.14)  :  [download]("https://mvnrepository.com/artifact/org.hibernate/hibernate-core/5.4.0.Final")
+   2.  project-LOMBOK        :  [download]("https://mvnrepository.com/artifact/org.projectlombok/lombok/1.18.8")
+   3.  mysql-connector-java  :  [download]("https://mvnrepository.com/artifact/mysql/mysql-connector-java/5.1.47")
  
 # SUPPORT
 I inspired to learn hibernate framework from **prof Ashutosh Abhangi**, who takes java as a subject of a Bachelor's degree, and he teaches theory with practical knowledge and introduce to student with new technology.
