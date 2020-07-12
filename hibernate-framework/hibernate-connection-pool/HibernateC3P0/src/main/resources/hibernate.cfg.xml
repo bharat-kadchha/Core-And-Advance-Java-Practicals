@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/studentdata</property>
+
+		<property name="hibernate.connection.username">root</property>
+		
+		<property name="hibernate.connection.password">123456</property>
+
+		<property name="hibernate.hbm2ddl.auto">update</property> 
+			<property name="show_sql">true</property> 
+			
+	<!-- nor required .hibernate first look for c3p0 connection class -->		
+	<property name="hibernate.connection.provider_class">org.hibernate.c3p0.internal.C3P0ConnectionProvider</property> 
+			
+		<!-- hibernate default 1 min connection-->
+		<property name="hibernate.c3p0.min_size">5</property> 
+		
+		<!-- hibernate default 100 max connection-->
+		<property name="hibernate.c3p0.max_size">10</property> 
+		
+		<!-- timeout in second -->
+		<property name="hibernate.c3p0.timout">200</property>
+		
+		<!-- hibernate number of statement in to cache -->
+	<property name="hibernate.c3p0.max_statements">40</property> 
+			 
+					
+		
+		
+	<mapping class="com.StudentModel"/>
+	
+	</session-factory>
+</hibernate-configuration>
+
