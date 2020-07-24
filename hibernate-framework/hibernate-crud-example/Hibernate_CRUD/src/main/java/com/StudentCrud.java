@@ -17,11 +17,11 @@ public class StudentCrud {
 		session.beginTransaction().commit();
 	}
 
-	public static void insertStudent(Session session, StudentModel sts) {
+	public static void insertStudent(Session session, StudentModel std) {
 
-		sts.setName("rahul");
-		sts.setCity("london");
-		session.saveOrUpdate(sts);
+		std.setName("rahul");
+		std.setCity("london");
+		session.saveOrUpdate(std);
 		session.beginTransaction().commit();
 		System.out.println("data inserted....");
 

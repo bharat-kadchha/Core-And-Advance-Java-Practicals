@@ -1,9 +1,8 @@
-# HIBERNATE CRUD EXAMPLE
-## these projects contain CRUD example.
+# HIBERATE DATE TIME
+## these projects contain hibernate with java Date API example.
    ### what you are learning from the following projects as below.
-   - Hibernate_CRUD :
-      
-     - in this project you will find the simple CRUD example with student data.
-     
-   - ServiceDAOLayer_CRUD :
-     - DAO - Data Access Object is a pattern to seperate application from database operation to business logic. 
+   - DateAndTimeStore :
+     - using `java.util.*` and `java.sql.*` to store Date and time value in to database .
+   - Java8DateAndTimeStore :
+     - java8 provide DateAndTime API to overcome drawbacks of old DataTime API.
+     - drawbacks like : `not thread safe`,`less operations` etc 
