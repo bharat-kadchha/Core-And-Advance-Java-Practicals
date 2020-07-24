@@ -1,34 +1,8 @@
-# HIBERNATE CRITERIA-QUERY
-## these projects contain hibernate criteria-query practical.
+# HIBERNATE DATE-TIME
+## these projects contain hibernate practical with Date value.
    ### what you are learning from the following projects as below.
-   - CriteriaQuery :
-      
-     - hibernate provide other way to process data extracting from RDMS tables.
-     - we have to create object programmatically where you can apply projection, restriction, filtering of other logic.
-     - create instance of criteia query :
-      ``` 
-         Criteria criteria = session.createCriteria(StudentModel.class);
-      ```
-     - apply Restriction : 
-     ```
-         criteria.add(Restrictions.eq("column name",value));
-         criteria.add(Restrictions.like("column name",value));
-         criteria.add(Restrictions.between("column name",value,value));
-     ```
-     - Pagination :
-     ```
-         criteria.setFristResult(int start);
-         criteria.setMaxResult(int max);
-     ```
-     - Sorting :
-     ```
-        criteria.addOrder(Order.desc("column"));
-        criteria.addOrder(Order.asc("column")); 
-     ```
-     - Aggregation :
-     ```
-         criteria.setProjection(Projection.avg("column"));
-         criteria.setProjection(Projection.max("column"));
-         criteria.setProjection(Projection.sum("column"));
-     ```
-
+- DateAndTimeStore :
+     - To store date value in to the Database with the use of packages like `java.util.*` and also `java.sql.*`.
+- java8DateAndTimeStore :
+     - java8 provide Date-Time API to overcome drawbacks old Date-Time API.packeges like `java.time.*`
+    

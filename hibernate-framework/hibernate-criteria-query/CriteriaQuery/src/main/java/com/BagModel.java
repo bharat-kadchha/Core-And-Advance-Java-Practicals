@@ -12,7 +12,6 @@ import lombok.ToString;
 @Entity
 @Table(name = "student_bag")
 @Data
-@ToString
 public class BagModel {
 
 	@Id

@@ -16,7 +16,8 @@ public class GroupByDemo {
 			Criteria criteria = session.createCriteria(StudentModel.class);
 
 			// select s_city,count(*) as from student_records group by s_city;
-			criteria.setProjection(Projections.projectionList().add(Projections.groupProperty("city")).add(Projections.rowCount()));
+			criteria.setProjection(
+					Projections.projectionList().add(Projections.groupProperty("city")).add(Projections.rowCount()));
 
 			List<Object[]> list = criteria.list();
 
