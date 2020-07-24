@@ -16,7 +16,6 @@ import lombok.Data;
 @Entity
 @Table(name = "genration_type")
 @Data
-
 public class AutoTypeDemo {
 
 	@Id

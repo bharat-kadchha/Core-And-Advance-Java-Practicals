@@ -16,7 +16,6 @@ import lombok.ToString;
 @Table(name = "fristCache")
 @DynamicUpdate
 @Data
-@ToString
 public class StudentModel {
 
 	@Id

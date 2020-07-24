@@ -30,7 +30,8 @@ public class MainApp {
 
 		StudentModel student1 = (StudentModel) session1.get(StudentModel.class, 1);
 
-		// session1.update(student); //here getting error (student is associate with other
+		// session1.update(student); //here getting error (student is associate with
+		// other
 		// session)
 
 		session1.merge(student);

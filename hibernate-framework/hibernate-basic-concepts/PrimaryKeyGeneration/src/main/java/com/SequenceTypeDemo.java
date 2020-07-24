@@ -18,7 +18,6 @@ import lombok.Data;
 @Entity
 @Table(name = "sequence")
 @Data
-
 public class SequenceTypeDemo {
 
 	@Id

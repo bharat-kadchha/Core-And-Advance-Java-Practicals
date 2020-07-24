@@ -15,7 +15,6 @@ import lombok.Data;
 @Table(name = "student_name")
 @DynamicUpdate
 @Data
-
 public class StudentModel {
 
 	@Id

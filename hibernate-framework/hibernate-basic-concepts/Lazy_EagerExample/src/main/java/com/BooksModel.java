@@ -6,7 +6,6 @@ import lombok.Data;
 
 @Embeddable
 @Data
-
 public class BooksModel {
 
 	private String bName;

@@ -17,7 +17,6 @@ import lombok.Data;
 @Entity
 @Table(name = "idetity")
 @Data
-
 public class IdentityTypeDemo {
 
 	@Id

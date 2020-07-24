@@ -12,7 +12,6 @@ import lombok.Data;
 @Entity
 @Table(name = "student_table")
 @Data
-
 public class StudentModel {
 
 	@Id // (every table has primary key)

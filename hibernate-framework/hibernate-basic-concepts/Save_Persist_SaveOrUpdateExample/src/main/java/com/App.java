@@ -1,5 +1,7 @@
 package com;
 
+import java.io.Serializable;
+
 import org.hibernate.Session;
 
 import utils.HibernateUtils;
@@ -21,7 +23,7 @@ public class App {
 			student3.setCity("ranavav");
 			student3.setName("rahul");
 
-			Integer i = (Integer) session.save(student1); // save method return serializeble or a primary key of the object/,
+			Integer i = (Integer) session.save(student1); // save method return Serializable or a primary key of the object/,
 
 			session.persist(student2); // return void.
 

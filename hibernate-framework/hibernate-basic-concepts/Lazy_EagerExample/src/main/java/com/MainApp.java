@@ -18,8 +18,11 @@ public class MainApp {
 			System.out.println(student);
 
 			// for LAZY
-			/*if(student!=null) { student.getCollection().forEach(System.out::println); }
-			 */
+
+			if (student != null) {
+				student.getCollection().forEach(System.out::println);
+			}
+
 			session.beginTransaction().commit();
 		}
 
