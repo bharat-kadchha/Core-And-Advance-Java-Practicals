@@ -12,10 +12,9 @@ import org.hibernate.annotations.DynamicUpdate;
 import lombok.Data;
 
 @Entity
-@Table(name = "aaa")
+@Table(name = "student")
 @DynamicUpdate
 @Data
-
 public class StudentModel {
 
 	@Id

@@ -1,7 +1,7 @@
 ### HibernateHikariPool :
       
 - it is very fast and lightweight java connection pool library.
-- hibernate provide download libraries for Hikari connection pool : [download](https://mvnrepository.com/artifact/hikari-cp/hikari-cp/2.6.0)
+- hibernate provide download libraries for Hikari connection pool : [download](https://mvnrepository.com/artifact/hikari-cp/hikari-cp/2.6.0
 
 Hibernate provide implimentation for Hikari pool as below..
 ``` 
