@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+    <!-- Define persistence unit -->
+    <persistence-unit name="spu1">
+        
+
+	<properties>
+	
+	<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+		<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/studentdata" />
+      <property name="javax.persistence.jdbc.user" value="root" />
+      <property name="javax.persistence.jdbc.password" value="123456" />
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+      
+		<property name="hibernate.hbm2ddl.auto" value="update"/> 
+      
+      
+	
+	
+	</properties>
+    </persistence-unit>
+</persistence>
