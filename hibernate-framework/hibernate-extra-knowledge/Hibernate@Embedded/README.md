@@ -5,14 +5,13 @@
 to solve this error.jPA provide `@AttributeOverride`
 
 ```
-    @Embedded
-	private MarksModel prevoiusMarks;
-	@Embedded
-	@AttributeOverrides(value = { @AttributeOverride(column = @Column(name = "c_maths_mark"), name = "math"),
-			@AttributeOverride(column = @Column(name = "c_sci_mark"), name = "science"),
-			@AttributeOverride(column = @Column(name = "c_eng_mark"), name = "englsh") })
-	private MarksModel currentMarks;
-
+@Embedded
+private MarksModel prevoiusMarks;
+@Embedded
+@AttributeOverrides(value = { @AttributeOverride(column = @Column(name = "c_maths_mark"), name = "math"),
+		@AttributeOverride(column = @Column(name = "c_sci_mark"), name = "science"),
+		@AttributeOverride(column = @Column(name = "c_eng_mark"), name = "englsh") })
+private MarksModel currentMarks;
 ```
 
     

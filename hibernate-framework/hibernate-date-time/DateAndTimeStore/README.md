@@ -6,8 +6,8 @@
 - Use Temporal annotation :
     - we want to store only Date then we have to add annotation is @Temporal(value =DATE,TIME,TEMPORAL)
     ```
-        @Temporal(value = TemporalType.DATE)
-	    private Date onlyDate;
+    @Temporal(value = TemporalType.DATE)
+	private Date onlyDate;
     ```
 
 

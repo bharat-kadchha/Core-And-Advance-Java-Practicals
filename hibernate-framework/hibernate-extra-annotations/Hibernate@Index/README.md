@@ -7,7 +7,7 @@
   @Data
 public class StudentModel 
 { 
-    int id;
-    String name
+   private int id;
+   private String name
 }	
   ```

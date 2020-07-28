@@ -1,4 +1,4 @@
-# Hibernate@UniqueConstraints :
+### Hibernate@UniqueConstraints :
   - used to set Constraints on columns then use this annotations.
   - columnNames={} define column names on which we have to apply constraint.if at any where constraint violate then hibernate throw Exception.
   ```

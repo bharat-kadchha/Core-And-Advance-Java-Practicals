@@ -5,16 +5,16 @@
 
 Hibernate provide implimentation for Hikari pool as below..
 ``` 
-	org.hibernate.hikaricp.internal.HikariCPConnectionProvider
+org.hibernate.hikaricp.internal.HikariCPConnectionProvider
 ```
 
 ```
-	<property name="hibernate.hikari.minimumIdle">5</property> 
+<property name="hibernate.hikari.minimumIdle">5</property> 
 		
-	<property name="hibernate.hikari.maximumPoolSize">20</property> 
+<property name="hibernate.hikari.maximumPoolSize">20</property> 
 		
-	<!-- maximum waiting time in ms-->
-	<property name="hibernate.hikari.connectionTimeout">10000</property>
+<!-- maximum waiting time in ms-->
+<property name="hibernate.hikari.connectionTimeout">10000</property>
 	
 ```
 
