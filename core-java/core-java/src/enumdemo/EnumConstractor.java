@@ -18,8 +18,8 @@ enum Employee {
 	}
 
 }
-
-public class EnumDemo3 {
+//when .class file loaded then all constant loaded and run constructor for all.
+public class EnumConstractor{
 	public static void main(String[] args) {
 
 		Employee employee = Employee.NAME;
