@@ -12,4 +12,6 @@
       - we have to do the configuration to enable second-level cache.
       - applying caching for multiple sessions.
       - there are many libraries that provide an implementation of hibernate caching.like.,EHCache, JBOSS, etc.
+   - dependency : hibernate-ehcache :  [download](https://mvnrepository.com/artifact/org.hibernate/hibernate-ehcache)
+
    - for more details of hibernate caching : [hibernate doc](https://docs.jboss.org/hibernate/orm/5.1/userguide/html_single/Hibernate_User_Guide.html#caching-provider-ehcache)  
