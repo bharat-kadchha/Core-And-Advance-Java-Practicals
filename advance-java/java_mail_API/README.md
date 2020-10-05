@@ -1,5 +1,5 @@
 ## Java_mail_API :
-### this project contain different programs of `JAVA MAIL API` feature with more practicals concepts for the extra knowledge.
+### this project contain different programs of JAVA MAIL API feature with more practicals concepts for the extra knowledge.
    - using different protocols like `SMTP` , `POP3` , `IMAP`, for sending and fetching email using java environment.
    - in this project you can find different type of example for sending plantext , html content , attechments with email.
    - also configure protocols and access **gmail mail box** with different folders and flags.
