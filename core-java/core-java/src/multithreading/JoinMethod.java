@@ -1,4 +1,4 @@
-package maltithreading;
+package multithreading ;
 
 public class JoinMethod {
 	public static void main(String[] args) throws InterruptedException {

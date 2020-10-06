@@ -1,4 +1,4 @@
-package maltithreading;
+package multithreading ;
 
 public class MultipleThread {
 

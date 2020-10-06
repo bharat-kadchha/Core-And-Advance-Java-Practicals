@@ -1,4 +1,4 @@
-package maltithreading;
+package multithreading ;
 
 class DemoClass {
 	public void wish(String name) {

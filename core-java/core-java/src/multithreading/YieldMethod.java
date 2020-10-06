@@ -1,6 +1,6 @@
 package maltithreading;
 
-public class YieadMethod {
+public class YieldMethod{
 
 	public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package maltithreading;
+package multithreading;
 
 class Test {
 	public synchronized void displayn() {

@@ -1,4 +1,4 @@
-package maltithreading;
+package multithreading ;
 
 class Display {
 	public static synchronized void wish(String name) {
