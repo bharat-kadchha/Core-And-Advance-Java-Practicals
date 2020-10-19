@@ -1,7 +1,7 @@
 # HIBERNATE FRAMEWORK
 ### these projects for one of the famous ORM tool of java is **HIBERNATE**. in these you can learn more about hibernate and expanding skills basic to advance with ORM concept.
 
-## INTRUCTIONS :
+## INSTRUCTIONS :
 
    - all are projects builds with the help of **MAVEN** . so, you can see POM.XML file in every projects. where you can add your extra dependency.
    - `Project lombok` is pluged with my IDE for the reducing boilerplate code.like _gatter, setter, or consrtuctor_ etc.
@@ -11,7 +11,7 @@
    - download for all the depenency from central-repository : [mvnrepository.com](https://mvnrepository.com/)
    - here,in these projects i have used `java-8`. so you have to use `java-8` or `java-8+` version of JDK.
 
-## DEPENDENCY REQUIREMENT :
+## BINARIES REQUIREMENT :
   - download jar file or add dependency to your POM.XML . 
       1. hibernate-core(5.14)  :  [download](https://mvnrepository.com/artifact/org.hibernatehibernate-core/5.4.0.Final)
       2. project-LOMBOK        : [download](https://mvnrepository.com/artifact/org.projectlombok/lombok/1.18.8)

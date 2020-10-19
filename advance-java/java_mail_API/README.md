@@ -6,10 +6,15 @@
         - folders : `INBOX` , `[Gmail]` , `[Gmail]/All Mail` , `[Gmail]/Bin` , `[Gmail]/Drafts` etc.
         - flags   : `SEEN` , `RECENT` , `DELETED` etc.
 
-### Instruction
+### INSTRUCTIONS :
 - for sending email using SMTP protocola in java enviroment.you have to follow below step.
     - enable **LESS SECURE APP** service of you account. 
     - how to do that? [check here](https://support.google.com/accounts/answer/6010255?hl=en)
 - for fetching email using IMAP protocol in java enviroment.you have to follow below step.
     - activate IMAP in gmail service of you account.
     - how to do that? [check here](https://support.google.com/mail/answer/7126229?hl=en)
+
+### BINARIES REQUIREMENT :
+  - download jar file and add into Build path . 
+      1. javax-mail  :  [download](http://www.java2s.com/Code/Jar/j/Downloadjavaxmailjar.htm)
+      
