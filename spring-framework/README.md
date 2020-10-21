@@ -1,5 +1,5 @@
 # SPRING CORE
-### these directory for one of the famous Java Framework is **SPRING**. in these you can learn more about spring core concept , Dependency injection , IOC , XML and annotation based configurations etc,upgrade your skils with spring core. 
+### these directory for one of the famous Java Framework is **SPRING**. in these you can learn more about spring core concept , Dependency injection , IOC , XML and annotation based configurations etc,upgrade your skills with spring core. 
 
 ## INSTRUCTIONS :
    - here ,two way to add dependency in your java project.
