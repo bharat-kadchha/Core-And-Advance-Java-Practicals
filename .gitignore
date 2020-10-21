@@ -43,6 +43,11 @@ buildNumber.properties
 ##############################
 
 .DS_Store
+##############################
+## STS (Spring Tool Suite)
+##############################
+.springBeans
+
 
 ##############################
 ## Eclipse
@@ -57,7 +62,6 @@ lib/
 .mymetadata
 .classpath
 .project
-.springBeans
 *.tmp
 *.bak
 *.swp
