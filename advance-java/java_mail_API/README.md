@@ -7,12 +7,12 @@
         - flags   : `SEEN` , `RECENT` , `DELETED` etc.
 
 ### INSTRUCTIONS :
-- for sending email using SMTP protocola in java enviroment.you have to follow below step.
-    - enable **LESS SECURE APP** service of you account. 
-    - how to do that? [check here](https://support.google.com/accounts/answer/6010255?hl=en)
+- for sending email using SMTP protocol in java enviroment.you have to follow below step.
+    1. enable **LESS SECURE APP** service of you account. 
+    2. how to do that? [check here](https://support.google.com/accounts/answer/6010255?hl=en)
 - for fetching email using IMAP protocol in java enviroment.you have to follow below step.
-    - activate IMAP in gmail service of you account.
-    - how to do that? [check here](https://support.google.com/mail/answer/7126229?hl=en)
+    1. activate IMAP in gmail service of you account.
+    2. how to do that? [check here](https://support.google.com/mail/answer/7126229?hl=en)
 
 ### BINARIES REQUIREMENT :
   - download jar file and add into Build path . 

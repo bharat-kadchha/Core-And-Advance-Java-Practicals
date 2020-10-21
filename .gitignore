@@ -57,6 +57,7 @@ lib/
 .mymetadata
 .classpath
 .project
+.springBeans
 *.tmp
 *.bak
 *.swp
