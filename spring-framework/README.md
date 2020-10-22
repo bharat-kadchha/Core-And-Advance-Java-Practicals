@@ -3,12 +3,12 @@
 
 ## INSTRUCTIONS :
    - here ,two way to add dependency in your java project.
-  1. if you are using MyEclipse as an IDE then add spring capabilities to your java project follow below step.
-     - First create java project.
-     - Right click on project -> goto MyEclipse option -> add Spring capabilities.
+  1. if you are using **MyEclipse** as an IDE then add **spring capabilities** to your java project follow below step.
+     - First create *java project*.
+     - Right click on *project* -> *goto MyEclipse* option -> *add Spring capabilities*.
   2. download spring library and add to Build path.
-     - First download spring 2.5 : [download](https://spring.io/blog/2007/11/19/spring-framework-2-5-released) 
-     - Right click on project -> goto Build Path -> add JARS 
+     - First download `Spring 2.5 od 2.5+` : [download](https://spring.io/blog/2007/11/19/spring-framework-2-5-released) 
+     - Right click on *project* -> goto *Build Path* -> *add JARS* 
    - here,in these projects i have used `java-8`. so you have to use `java-8` or `java-8+` version of JDK.and also used  `Spring 2.5 Core Librraries`. so you have to use same or updated vesion of spring.
 
 ## BINARIES REQUIREMENT :
@@ -23,6 +23,9 @@
     3. tutorialspoint : [click to visit](https://www.tutorialspoint.com/spring/index.htm)
     4. journaldev : [click to visit](https://www.journaldev.com/2888/spring-tutorial-spring-core-tutorial)
     5. howtodoinjava : [click to visit](https://howtodoinjava.com/spring-core/)
+
+# SUPPORT 
+I inspired to learn Spring framework from **prof Ashutosh Abhangi**, who takes java as a subject of a Bachelor's degree, and he teaches theory with practical knowledge and introduce to student with new technology.
 
 # CONTRIBUTING
 hello developer, i inviting to you for the contribution.who are curious about to learning new things.kindly fork the project and add your codes.
