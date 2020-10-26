@@ -1,33 +1,24 @@
-# SPRING IOC CONTAINER
+# SPRING BASIC
 
-## these projects contain spring IOC container example. 
+## these projects contain core concepts of spring. 
 
    ### what you are learing from following projects as below.
+   
+   - SpringHelloWorld :
+  
+      - This is first spring project that print *hello world* .
+      - Simplly,create Bean and inject class dependency using setter method. 
+      - All the context of application writedown in xml file called `applicationContext.xml`. we can modified it.
 
-   - Spring IOC container :
-      - no need to worry about the creation or assemble the objects by the developer, in spring, IOC container is responsible to create, configure, and assemble the objects.
-      - these objects related metadata-configuration provided by `XML` file, `javaAnnotation` or `java code`. based on configuration IOC container instantiate objects and maintain their life cycle.
-      - every single object known as `Spring Beans`.
-      - in spring, two interfaces act as IOC container.
-        1.  *ApplicationContextContainer*
-        2.  *BeanFactory*
-
-   - SpringApplicationContextContainer :
-      - This container is defined by the `org.springframework.context.ApplicationContext` interface.
-      - it has more enterprise-specific functionality included with BeanFactory also. so generally recommended to use it.
-      ```java
-		ApplicationContext classPathCtx = new ClassPathXmlApplicationContext("MyBean.xml");
-      ```
+   - SpringCouplingTypeDemo :
       
-
-   - SpringBeanFactoryContainer :
-      - This container is defined by the `org.springframework.beans.factory.BeanFactory` interface.
-      - it is the simplest container to provide basic support of **DI**.
-      - Bean Factory is also used in lightweight application and applet-based projects because the data volume is significant.
-      ```java
-      BeanFactory factory = new XmlBeanFactory(new ClassPathResource("MyBean.xml"));
-      ```
-      
-     
+     - Basically, there are two type of codeing style `Tight Coupling` and `Loose Coupling`.
+     1. **Tight Coupling** :
+         - Tight coupling means classes and objects are *dependent* on one another. 
+         - Tight coupling is usually not good because it reduces the flexibility and re-usability of the code.
+       
+     2. **Loose Coupling** :
+         - Loose coupling means classes and objects are *independent* on one another.
+         - Loose coupling is usally reducing the dependencies of a class that uses the different class directly.
      
    
