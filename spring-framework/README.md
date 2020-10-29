@@ -1,15 +1,15 @@
 # SPRING CORE
-### these directory for one of the famous Java Framework is **SPRING**. in these you can learn more about spring core concept , Dependency injection , IOC , XML and annotation based configurations etc,upgrade your skills with spring core. 
+### this directory for one of the famous Java Framework is **SPRING**. in these you can learn more about the spring core concept, Dependency injection, IOC, XML, and annotation-based configurations, etc, upgrade your skills with spring core. 
 
 ## INSTRUCTIONS :
-   - here ,two way to add dependency in your java project.
-  1. if you are using **MyEclipse** as an IDE then add **spring capabilities** to your java project follow below step.
+   - here, two ways to add a dependency to your java project.
+  1. if you are using **MyEclipse** as an IDE then add **spring capabilities** to your java project follow the below step.
      - First create *java project*.
      - Right click on *project* -> *goto MyEclipse* option -> *add Spring capabilities*.
-  2. download spring library and add to Build path.
+  2. download the spring library and add to the Build path.
      - First download `Spring 2.5 od 2.5+` : [download](https://spring.io/blog/2007/11/19/spring-framework-2-5-released) 
      - Right click on *project* -> goto *Build Path* -> *add JARS* 
-   - here,in these projects i have used `java-8`. so you have to use `java-8` or `java-8+` version of JDK.and also used  `Spring 2.5 Core Librraries`. so you have to use same or updated vesion of spring.
+   - here, in these projects, I have used `java-8`. so you have to use the `java-8` or `java-8+` version of JDK.and also used  `Spring 2.5 Core Libraries`. so you have to use the same or updated version of spring.
 
 ## BINARIES REQUIREMENT :
   - download jar file and add into Build path.
@@ -25,7 +25,7 @@
     5. howtodoinjava : [click to visit](https://howtodoinjava.com/spring-core/)
 
 # SUPPORT 
-I inspired to learn Spring framework from **prof Ashutosh Abhangi**, who takes java as a subject of a Bachelor's degree, and he teaches theory with practical knowledge and introduce to student with new technology.
+I inspired to learn the Spring framework from **prof Ashutosh Abhangi**, who takes java as a subject of a Bachelor's degree, and he teaches theory with practical knowledge and introduces to a student with new technology.
 
 # CONTRIBUTING
-hello developer, i inviting to you for the contribution.who are curious about to learning new things.kindly fork the project and add your codes.
+hello developer, I invite you to the contribution. who are curious about learning new things. kindly fork the project and add your codes.
