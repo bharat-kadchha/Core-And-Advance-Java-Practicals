@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+
+<bean id="bike" class="com.setter_method.BikeModel" >
+	<property name="color" value="Red"/> <!-- literal value injection by constructor -->
+	<property name="company" value="Honda"/>
+	<property name="prize" value="52000"/>
+	
+	
+</bean>
+
+<bean id="car" class="com.constructor.CarModel" >
+	<constructor-arg value="Blue"/>    <!-- literal value injection by setter method -->
+	<constructor-arg value="Maruti"/>
+	
+</bean>
+
+</beans>
