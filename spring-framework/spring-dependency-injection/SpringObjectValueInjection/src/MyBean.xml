@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="engine" class="com.constructor.EngineService" />
+
+	<bean id="bike" class="com.setter_method.BikeModel">
+
+		<property name="color" value="Red" />
+		<property name="engine" ref="engine" />
+
+	</bean>
+
+	<!-- 1st way to add other object dependency  -->
+
+	<bean id="car" class="com.constructor.CarModel">
+
+		<constructor-arg ref="engine" /> <!-- object value injection  -->
+
+	</bean>
+
+
+	<!-- 2nd way to add other object dependency  -->
+
+	<bean id="car1" class="com.constructor.CarModel">
+
+		<constructor-arg>
+			<bean id="engine1" class="com.constructor.EngineService"></bean>
+		</constructor-arg>
+
+	</bean>
+
+
+</beans>
