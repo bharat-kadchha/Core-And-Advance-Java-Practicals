@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+
+	<bean id="student" class="com.constructor.StudentModel">
+
+		<constructor-arg value="rajesh" />
+		<constructor-arg value="123456" />
+		<constructor-arg>
+			<map>
+				<entry key="book1" value="the jungle book" />
+				<entry key="book2" value="harry potter" />
+
+			</map>
+
+		</constructor-arg>
+	</bean>
+
+
+	<bean id="student1" class="com.setter_method.StudentModel">
+
+		<property name="name" value="rahul" />
+		<property name="rollNo" value="121" />
+		<property name="books">
+			<map>
+				<entry key="book1" value="the jungle book" />
+				<entry key="book2" value="harry potter" />
+
+			</map>
+
+		</property>
+	</bean>
+
+
+
+
+</beans>
