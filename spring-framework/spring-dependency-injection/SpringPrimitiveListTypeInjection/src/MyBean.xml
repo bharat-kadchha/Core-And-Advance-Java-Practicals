@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+	<!--single Beans-->
+
+	<bean id="student" class="com.constructor.StudentModel">
+
+		<constructor-arg value="rajesh" />
+		<constructor-arg value="123456" />
+		<constructor-arg>
+			<list>
+				<value>SDLC</value>
+				<value>oops concepts</value>
+				<value>j2EE</value>
+				<value>spring core</value>
+			</list>
+
+		</constructor-arg>
+	</bean>
+
+	<!-- setter method -->
+
+	<bean id="student1" class="com.setter_method.StudentModel">
+		<property name="name" value="rakesh" />
+		<property name="rollNo" value="111" />
+		<property name="books">
+			<list>
+				<value>SDLC</value>
+				<value>oops concepts</value>
+				<value>j2EE</value>
+				<value>spring core</value>
+
+			</list>
+		</property>
+
+	</bean>
+
+
+</beans>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+<!--constructor injection start-->
+
+	<bean id="b1" class="com.costructor.BooksModel">
+
+		<constructor-arg value="the jungle book" />
+		<constructor-arg value="200" />
+
+	</bean>
+
+	<bean id="b2" class="com.costructor.BooksModel">
+
+		<constructor-arg value="harry potter" />
+		<constructor-arg value="500" />
+
+	</bean>
+
+	<bean id="b3" class="com.costructor.BooksModel">
+
+		<constructor-arg value="the great gatsby" />
+		<constructor-arg value="450" />
+
+	</bean>
+
+	
+
+	<bean id="student" class="com.costructor.StudentModel">
+
+		<constructor-arg value="rajesh" />
+		<constructor-arg value="123456" />
+		<constructor-arg>
+			<list>
+				<ref bean="b1" />
+				<ref bean="b2" />
+				<ref bean="b3" />
+			</list>
+		</constructor-arg>
+	</bean>
+
+
+<!--constructor injection end-->
+
+<!--setter injection start-->
+	
+	<bean id="b4" class="com.setter_method.BooksModel">
+
+		<constructor-arg value="yourself" />
+		<constructor-arg value="500" />
+
+	</bean>
+
+	<bean id="b5" class="com.setter_method.BooksModel">
+
+		<constructor-arg value="microservice" />
+		<constructor-arg value="450" />
+
+	</bean>
+
+
+	<bean id="student2" class="com.setter_method.StudentModel">
+
+		<property name="name" value="mahesh" />
+		<property name="rollNo" value="067" />
+		<property name="books">
+			<list>
+
+				<ref bean="b4" />
+				<ref bean="b5" />
+				
+			</list>
+
+		</property>
+
+	</bean>
+
+<!--setter injection end-->
+
+
+
+</beans>
