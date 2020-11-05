@@ -17,7 +17,7 @@
             - we can say that the bean of a class contains a factory method.
             - it is used for creating an object based on a factory design pattern.
       
-      - factory methods types:
+      - Factory Methods types:
          1. NonStatic Factory-Method that returns an instance of another class.
          2. Static Factory-Method that returns an instance of another class.
          3. Static Factory-Method that returns an instance of the same class.  
