@@ -1,3 +1,2 @@
-## lab-manual :
-   - this project contian a practicals for the student of _GTU_ for their assignments and practicals notes as per _GTU_ syllabus.
- 
+## lab-manuals :
+   - this project contains practicals for the student of GUJARAT TECHNICAL UNIVERSITY .here you will find your assignment's Programs and practical notes as per _GTU_  syllabus. 

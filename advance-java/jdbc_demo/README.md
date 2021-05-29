@@ -1,4 +1,4 @@
-## jdbc-demo :
-   - this project contain different programs of `JDBC(JAVA DATADASE CONNECTIVITY)` feature,more practicals concepts for the extra knowledge.
-   - like : CRUD, Aggrigation, Batching, Excel sheet as a datasource, etc.. 
+## JDBC - concepts :
+   - this project contains different programs of the `JDBC(JAVA DATABASE CONNECTIVITY)` and its feature, and more practicals concepts for extra knowledge.
+   - like : CRUD, Aggregation, Batching, Excel sheet as a data source, etc... 
  
