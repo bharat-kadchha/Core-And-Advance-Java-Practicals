@@ -1,2 +1,2 @@
 ## core java :
-- in this project, you will find different concepts of JAVA like Oops concepts, looping, different packages examples, File IO, multiThreading, networking, collections, reflection API, and others practicals also.
+- in this project, you will find different concepts of JAVA like Oops concepts, looping, lang package, IO package, util package, File IO, multiThreading, networking, collections, reflection API, and other practicals also.

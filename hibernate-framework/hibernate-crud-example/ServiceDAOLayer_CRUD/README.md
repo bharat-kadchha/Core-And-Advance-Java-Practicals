@@ -1,7 +1,6 @@
 ### ServiceDAOLayer_CRUD :
       
- - Data Access Object(DAO) is a pattern to seperate application from database operation to business logic. 
-     - Data Access Interface - difine standard operations to be performed on a model object. 
-     - Data Access impliment class - this class impliment above Interface.and get data from database.
-     - POJO object - the object of a class which contain getter and setter method. 
-
+ - Data Access Object(DAO) is a pattern to separate applications from database operation to business logic. 
+     - Data Access Interface - define standard operations to be performed on a model object. 
+     - Data Access implement class - this class implements the above Interface. and gets data from the database.
+     - POJO object - the object of a class that contains the getter and setter method. 

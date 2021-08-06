@@ -1,5 +1,5 @@
 ### HibernateCollectionSave :
-- to set Collection as an element of entity like.List,Set etc. 
+- to set Collection as an element of an entity like. List, Set, etc. 
 - @ElementCollection annotation tells to hibernate this is a collection element.
 ```
 	@ElementCollection
