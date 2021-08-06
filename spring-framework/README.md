@@ -6,7 +6,7 @@
   1. if you are using **MyEclipse** as an IDE then add **spring capabilities** to your java project follow the below step.
      - First create *java project*.
      - Right click on *project* -> *goto MyEclipse* option -> *add Spring capabilities*.
-  2. download the spring library and add to the Build path.
+  2. download the spring library and add it to the Build path.
      - First download `Spring 2.5 od 2.5+` : [download](https://spring.io/blog/2007/11/19/spring-framework-2-5-released) 
      - Right click on *project* -> goto *Build Path* -> *add JARS* 
    - here, in these projects, I have used `java-8`. so you have to use the `java-8` or `java-8+` version of JDK.and also used  `Spring 2.5 Core Libraries`. so you have to use the same or updated version of spring.
@@ -17,7 +17,7 @@
       2. Apache Commons Logging :  [download](https://commons.apache.org/proper/commons-logging/download_logging.cgi)
       
 ## RESOURCES :
--  if you want to learn more about the spring framework then you visit below sites.
+-  if you want to learn more about the spring framework then you visit the below sites.
     1. official Documentation : [click to visit](https://docs.spring.io/spring-framework/docs/2.0.x/reference/index.html)
     2. javatpoint : [click to visit](https://www.javatpoint.com/spring-modules) 
     3. tutorialspoint : [click to visit](https://www.tutorialspoint.com/spring/index.htm)
@@ -25,7 +25,7 @@
     5. howtodoinjava : [click to visit](https://howtodoinjava.com/spring-core/)
 
 # SUPPORT 
-I inspired to learn the Spring framework from **prof Ashutosh Abhangi**, who takes java as a subject of a Bachelor's degree, and he teaches theory with practical knowledge and introduces to a student with new technology.
+I was inspired to learn the Spring framework from **prof Ashutosh Abhangi**, who takes java as a subject of a Bachelor's degree, and teaches theory with practical knowledge, and introduces to a student with new technology.
 
 # CONTRIBUTING
 hello developer, I invite you to the contribution. who are curious about learning new things. kindly fork the project and add your codes.

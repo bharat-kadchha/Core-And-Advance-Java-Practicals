@@ -6,7 +6,7 @@
         session.update(student);
     ```
 2. session.merge() :
-- Telling to hibernate to get the object from other session which is closed but i have to modified in current session.
+- Telling to hibernate to get the object from another session that is closed but I have to modify it in the current session.
     ```
         session.merge(student);
     ```

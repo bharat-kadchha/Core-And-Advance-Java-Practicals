@@ -1,23 +1,23 @@
 # HIBERNATE EXTRA KNOWLEDGE 
-## these projects contain different concepts example.
-   ### what you are learning from the following projects as below.
+## this directory contain different concepts example.
+   ### what you are learning from the following projects.
    - BinaryDataStore :
-      - to store the binary data in to database with the help of @lob annotation.
+      - to store the binary data into the database with the help of @lob annotation.
       - BLOB (binary large object data) CLOB (character large object data) these both are datatype of Database.
    - HibernateBatchProcessing :
-      - every time create connection and store single single object in to database.but we can store thousand of object with the helps of batch in single connection.
+      - every time create a connection and store a single object into the database. but we can store thousands of objects with the help of a batch in a single connection or query.
    - HibernateCollection@Imutable :
-      - @immutable annotation used to prevent updating entity as well as collection attributes.its also apply class level or attribute level.
+      - @immutable annotation is used to prevent updating entity as well as collection attributes. It also applies to class level or attribute level.
    - HibernateCollectionSave :
-      - to set Collection as an element of entity like.List,Set etc. 
+      - to set Collection as an element of an entity like. List, Set, etc. 
       - @ElementCollection annotation tells to hibernate this is a collection element.
    - Hibernate@Embadded :
-      - to set user define entity without create other table, so we can specified that object is embedded with same class using @Embadded annotation.
-   - JPADemo :
-      - create entityManager for the managing entities and no need to maintain other configuration.that is a speccification for the Hibernate.focus on business login .
+      - to set user define entity without creating another table, so we can specify that object is embedded with same class using @Embadded annotation.
+   - HibernateJPADemo :
+      - create entityManager for the managing entities and no need to maintain other configuration. that is a specification for the Hibernate. 
    - StoreProcedureAndFunction :
-      - storeProcedure and function is a concept of DBMS .so you can find how to call procedure and function.
-      - JDBC CallableStatement helps us to calling prodecure and function. 
+      - store procedure and function is a concept of DBMS .so you can find how to call procedure and function.
+      - JDBC CallableStatement helps us to call procedure and function. 
 
 
 

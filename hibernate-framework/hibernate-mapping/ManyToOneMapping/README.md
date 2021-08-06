@@ -1,7 +1,7 @@
 ### ManyToOneMapping : 
-- if a source object referances to target object there is no guarantee that the target obejct als0 has reletionship with source object. 
-- it will used when we have to made reletionship like many student has one class.
-- use @ManyToOne annotation for this reletionship.
+- if a source object references to target object there is no guarantee that the target object als0 has a relationship with the source object. 
+- it will be used when we have to make a relationship like many students has one class.
+- use @ManyToOne annotation for this relationship.
 ```
 public class StudentModel
 {

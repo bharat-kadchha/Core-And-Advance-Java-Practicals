@@ -1,14 +1,14 @@
 # SPRING IOC CONTAINER
 
-## these projects contain spring IOC container example. 
+## this directory contains a spring IOC container example. 
 
-   ### what you are learing from following projects as below.
+   ### what you are learning from the following projects.
 
    - Spring IOC container :
-      - no need to worry about the creation or assemble the objects by the developer, in spring, IOC container is responsible to create, configure, and assemble the objects.
-      - these objects related metadata-configuration provided by `XML` file, `javaAnnotation` or `java code`. based on configuration IOC container instantiate objects and maintain their life cycle.
+      - no need to worry about the creation or assemble the objects by the developer, in spring, the IOC container is responsible to create, configure, and assemble the objects.
+      - these objects related metadata-configuration provided by `XML` file, `java annotations or `java code`. based on configuration IOC containers instantiate objects and maintain their life cycle.
       - every single object known as `Spring Beans`.
-      - in spring, two interfaces act as IOC container.
+      - in spring, two interfaces act as IOC containers.
         1.  *ApplicationContextContainer*
         2.  *BeanFactory*
 
@@ -21,9 +21,9 @@
       
 
    - SpringBeanFactoryContainer :
-      - This container is defined by the `org.springframework.beans.factory.BeanFactory` interface.
+      - This container is defined by the `org.springframework.beans.factory.BeanFactory interface.
       - it is the simplest container to provide basic support of **DI**.
-      - Bean Factory is also used in lightweight application and applet-based projects because the data volume is significant.
+      - Bean Factory is also used in the lightweight applications and applet-based projects because the data volume is significant.
       ```java
       BeanFactory factory = new XmlBeanFactory(new ClassPathResource("MyBean.xml"));
       ```

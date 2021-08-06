@@ -1,18 +1,18 @@
 ###  Save_Persist_SaveOrUpdateExample :
 
-- hibernate provide couple of ways to save ab entity object into database.
+- hibernate provide a couple of ways to save ab entity object into the database.
     1. save() :
-         - this method saves records which created by INSERT query .and return serializable identifier.
+         - this method saves records created by INSERT query .and return serializable identifiers.
             ```
                 session.save(student);
             ```
     2. persist() :
-         - this method saves records which created by INSERT query .and didn't return serializable identifier.
+         - this method saves records created by INSERT query .and didn't return serializable identifiers.
             ```
                 session.persist(student);
             ```
     3. saveOrUpdate() :
-         - this method saves records which created by INSERT or UPADATE query.
+         - this method saves records created by INSERT or UPDATE query.
             ```
                 session.saveOrUpdate(student);
             ```

@@ -1,7 +1,7 @@
-# HIBERNATE QUERY LANGIAGE
-## these projects contain different inheritance strategy hibernate example.
-   ### what you are learning from the following projects as below.
-   - 3 type of strategy normalized ratio as below.
+# HIBERNATE QUERY LANGUAGE
+## this directory contains different inheritance strategy hibernate examples.
+   ### what you are learning from the following projects.
+   - 3 types of strategy normalized ratio as below.
    ``` 
    JOIN > TABLE_PER_CLASS > SINGLE 
    ```

@@ -1,6 +1,6 @@
 # HIBERATE DATE TIME
-## these projects contain hibernate with java Date API example.
-   ### what you are learning from the following projects as below.
+## this directory contains hibernate with java Date API example.
+   ### what you are learning from the following projects.
    - DateAndTimeStore :
      - using `java.util.*` and `java.sql.*` to store Date and time value in to database .
    - Java8DateAndTimeStore :

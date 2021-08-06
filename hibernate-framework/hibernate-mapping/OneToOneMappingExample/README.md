@@ -1,5 +1,5 @@
 ### OneToOneMapping :
-- here this is simple reletionship where single source object have a single target object.
+- here this is a simple relationship where a single source object has a single target object.
 - use @OneToOne annotation for this relationship.
 ```
 public class StudentModel

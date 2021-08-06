@@ -1,6 +1,6 @@
 # HIBERNATE SESSION  
-## these projects contain hibernate session and its methods example.
-   ### what you are learning from the following projects as below.
+## this directory contains hibernate session and its methods example.
+   ### what you are learning from the following projects.
    - HibernateSession :
       - various session level method introduce in this project.
       - get() : get details of perticuler entity.

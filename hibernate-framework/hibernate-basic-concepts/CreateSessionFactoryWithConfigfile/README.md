@@ -4,4 +4,3 @@
 ```
 StandardServiceRegistry standardServiceRegistry = new StandardServiceRegistryBuilder().configure().build();
 ```
- 
