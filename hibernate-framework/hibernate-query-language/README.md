@@ -1,6 +1,6 @@
-# HIBERNATE QUERY LANGUAGE
-## this directory contain different query for hibernate example.
-   ### what you are learning from the following projects.
+# HIBERNATE QUERY LANGIAGE
+## these projects contain different query for hibernate example.
+   ### what you are learning from the following projects as below.
    - HqlAdvanceQuery :
       -  to perform And,OR query ,isNull value find,OrderBy clause.
    - HqlAggrigation :

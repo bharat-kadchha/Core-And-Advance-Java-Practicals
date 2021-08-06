@@ -1,11 +1,11 @@
 # HIBERNATE EXTRA ANNOTATIONS 
-## this directory contains different annotation examples.
-   ### what you are learning from the following projects.
+## these projects contain different annotations example.
+   ### what you are learning from the following projects as below.
    - Hibernate@columnDefault :
-     - if we want to set the default value to the column then use this annotation.
+     - if we want to set default value to the column then use this annotation.
    - Hibernate@formula :
-     - if we want to calculate column value then use this annotation.
+     - if we want to calculate column value then use this annotations.
    - Hibernate@Index :
-     - use to create indexing for a particular entity to increase searching capability.
+     - use to create indexing for perticular entity to increse searching capability.
    - Hibernate@UniqueConstraints :
-      - used to set Constraints on columns then use this annotation.
+      - used to set Constraints on columns then use this annotations.

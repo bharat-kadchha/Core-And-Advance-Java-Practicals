@@ -1,8 +1,8 @@
 ### Hibernate@Embadded :
-- to set user define entity without creating another table, so we can specify that object is embedded with same class using @Embadded annotation. we can specify that object is embedded with this class.
-- we can use the embedded same type of object multiple times.
-- hibernate create the same object with the same column name .so it will give an error. ( repeated column .)
-to solve this error.JPA provides `@AttributeOverride`
+- to set user define entity without create other table, so we can specified that object is embedded with same class using @Embadded annotation.we can specified that object is embedded with this class .
+- we can use embedded same type of object multiple times.
+- hibernate create same object with same column name .so it will gives error.( repeated column .)
+to solve this error.jPA provide `@AttributeOverride`
 
 ```
 @Embedded

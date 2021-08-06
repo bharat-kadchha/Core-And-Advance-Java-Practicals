@@ -1,0 +1,9 @@
+fullname :INBOX
+fullname :[Gmail]
+fullname :[Gmail]/All Mail
+fullname :[Gmail]/Bin
+fullname :[Gmail]/Drafts
+fullname :[Gmail]/Important
+fullname :[Gmail]/Sent Mail
+fullname :[Gmail]/Spam
+fullname :[Gmail]/Starred

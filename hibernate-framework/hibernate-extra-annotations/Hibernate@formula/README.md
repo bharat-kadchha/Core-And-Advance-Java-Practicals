@@ -1,7 +1,7 @@
 ### Hibernate@formula :
-  - if we want to calculate column value then use this annotation.
-  - used to calculate entity attributes, it will not store into DB as a column.
-  - it is a read-only Attribute we can't modify its value.
+  - if we want to calculate column value then use this annotations.
+  - used to calculate entity attributes,it will not store in to DB as a column.
+  - it is read only Attribute we cant modified its value.
   ```
 	  @Column(name = "credit")
 	  private double credit;

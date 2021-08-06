@@ -1,11 +1,11 @@
 # HIBERNATE CACHING
-## These projects contain caching mechanism of hibernate.
-   ### what you are learning from the following projects is below.
+## these projects contain caching mechanism of hibernate.
+   ### what you are learning from the following projects as below.
    - HibernateFristLevelCache :
       
-     - it is a session-level cache enabled by default. there is no way to disable it.
-     - data of any session is not visible for other sessions. when the session is closed then cache or persisted data is lost.
-     - caching is useful for increasing the performance of the application.
+     - it is session-level cache enable by-default.there is no way to disable it.
+     - data of any session not visible for other sessions.when the session is closed then cache or persisted data lost.
+     - caching useful for increasing the performance of the application.
      
    - HibernateSecondLevelCache :
 

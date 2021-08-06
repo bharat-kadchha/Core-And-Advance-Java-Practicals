@@ -1,8 +1,8 @@
 ### StoreProcedureAndFunction :
-- store procedure and function is a concept of DBMS .so you can find how to call procedure and function.
-- JDBC CallableStatement helps us to call procedure and function. 
+- storeProcedure and function is a concept of DBMS .so you can find how to call procedure and function.
+- JDBC CallableStatement helps us to calling prodecure and function. 
 
-- stored procedure :
+- StoreProcedure :
 ```
 Query query = session.createSQLQuery("CALL getStudent(:sid)").addEntity(StudentModel.class).setParameter("sid",2);
 ```

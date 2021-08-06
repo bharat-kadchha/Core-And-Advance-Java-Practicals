@@ -1,9 +1,9 @@
 ## Java_mail_API :
-### this project contains different programs of JAVA MAIL API with its practical implementation.
+### this project contains different programs of JAVA MAIL API features with more practicals concepts for extra knowledge.
 
-   - sending and fetching emails using different protocols like `SMTP`, `POP3`, `IMAP`.
+   - using different protocols like `SMTP`, `POP3`, `IMAP`, for sending and fetching email using java environment.
    - in this project, you can find different Java programs for sending plaintext, HTML content, attachments with the email.
-   - also configure protocols and access **Gmail mail box** with different folders and flags.
+   - also configure protocols and access **gmail mail box** with different folders and flags.
         - folders : `INBOX` , `[Gmail]` , `[Gmail]/All Mail` , `[Gmail]/Bin` , `[Gmail]/Drafts` etc.
         - flags   : `SEEN` , `RECENT` , `DELETED` etc.
 
@@ -18,5 +18,6 @@
 
 ### BINARIES REQUIREMENT :
 
-  - download the jar file and add it to the Build path. 
+  - download jar file and add into Build path . 
       1. javax-mail  :  [download](http://www.java2s.com/Code/Jar/j/Downloadjavaxmailjar.htm)
+      

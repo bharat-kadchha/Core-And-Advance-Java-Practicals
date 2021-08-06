@@ -17,4 +17,4 @@
 I inspired to learn java language from **prof Ashutosh Abhangi**, who takes java as a subject of a Bachelor's degree, and he teaches theory with practical knowledge and introduces to a student with new technology.
 
 # CONTRIBUTING
-hello developer, I invite you for your contribution. who are curious about learning new things. kindly fork the project and add your codes.
+hello developer, I invite you for the contribution. who are curious about learning new things. kindly fork the project and add your codes.

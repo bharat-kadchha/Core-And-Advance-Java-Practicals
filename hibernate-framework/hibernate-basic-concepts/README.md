@@ -1,6 +1,6 @@
 # HIBERNATE BASIC
-## this directory contains the core concept of hibernate. 
-   ### what you are learning from the following projects.
+## these projects contain core concepts of hibernate. 
+   ### what you are learing from following projects as below.
    - CascadeTypeExample :
       
      - to establish dependency between entities we have to used cascadeType with mapping annotation.
@@ -12,10 +12,10 @@
 
    - CreateSessionFactoryWithoutConfigFile :
       
-     - to create SessionFactory without config file. here we have to configure all the hibernate properties into Properties object.
+     - to create SessionFactory without config file.here we have to configure all the hibernate properties in to Properties object.
      
    - DirtyCheckingConcept :
-      - avoid time-consuming DATABASE action, updating table without effecting to another field it means the query is performed only updating the field. remaining unchanged.
+      - avoid to time consuming DATABASE action, updating table without effecting to other field it means query is perform only updating field.remaining unchanged.
       
    - hibernate_with_xmlFile :
       
@@ -23,19 +23,19 @@
      
    - Lazy_EagerExample :
 
-     - two types of data loading strategies in HIBERNATE.these is a reference to child class when a parent is loaded.
+     - two types of data loading strategies in HIBERNATE.these is reference to child class when parent is loded.
 
       1. LAZY LOADING :
-         - this is the default Loading strategy. use when you are not getting a child entity with a parent.
-      2. EGARE LOADING :
-         - this is worse coding .it will return all details about parent and child as well if the child is not 
+         - this is default Loading strategy.use when you are not getting child entity with parent.
+      2. EGARE LADOING :
+         - this is worse coding .it will return all details about parent and chiled as well if chied is not 
 
    - Merge_UpdateExample :
       1. session.update(Class entity) :
-         - it is a method of session for the update or saves the present entity. but it works only for the current session.
+         - it is method of session for the update or save present entity.but it is work only current session.
         
       2. session.merge(Class entity) :
-         - Telling to hibernate to get the object from another session that is closed but I have to modify it in the current session.
+         - Telling to hibernate to get the object from other session which is closed but i have to modified in current session.
        
 
    - PrimaryKeyGeneration :
@@ -43,20 +43,20 @@
       - in hibernate tools four type of key gentration strategies.
 
          1. AUTO :
-            - select a generation strategy based on the used dialect.
-         2. IDENTITY :
-            - hibernate relies on an auto-incremented database column to generate the primary key.
+            - select generation strategy based on the used dialect.
+         2. INDETITY :
+            - hibernate relies on an auto-incremeted database column to generate primary key.
          3. SEQUENCE :
-            - increment key based on the sequence we define.
+            - increment key based on sequence we define.
          4. TABLE :
-            - database one or more tables can be used to hold identifier counter.
+            - database one or more table can be used to hold indentifier counter.
    - Save_Persist_SaveOrUpdateExample :
 
-     - hibernate provide a couple of ways to save ab entity object into the database.
+     - hibernate provide couple of ways to save ab entity object into database.
       1. save() :
-         - this method saves records created by INSERT query .and returns a serializable identifier.
+         - this method saves records which created by INSERT query .and return serializable identifier.
       2. persist() :
-         - this method saves records created by INSERT query .and didn't return serializable identifiers.
+         - this method saves records which created by INSERT query .and didn't return serializable identifier.
       3. saveOrUpdate() :
-         - this method saves records created by INSERT or UPDATE query.
+         - this method saves records which created by INSERT or UPADATE query.
 
