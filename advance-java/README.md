@@ -5,7 +5,7 @@
     - this directory contains different programs of the `JDBC(JAVA DATABASE CONNECTIVITY)` feature, more practicals concepts for extra knowledge.
     - like different DATABASE connections, CRUD, Aggregation, Batching, Excel sheet as a data source, etc. 
 
- - **java-mail-API**
+ - **java-mail-API** :
    - this directory regarding sending/retrieving Emails using java as a language. send an email with plain text, HTML text, attachments, and also retrieve email from different `Gmail' folders and get by labels. 
 
  - **lab-manual** :
