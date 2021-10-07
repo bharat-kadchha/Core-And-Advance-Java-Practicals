@@ -1,4 +1,4 @@
-# jAVA DESIGN PATTERN
+# JAVA DESIGN PATTERN
 ### this directory contains the concepts of java design patterns. Design patterns represent the best practices used by experienced `object-oriented` software developers.
 
 ## Design Pattern :
