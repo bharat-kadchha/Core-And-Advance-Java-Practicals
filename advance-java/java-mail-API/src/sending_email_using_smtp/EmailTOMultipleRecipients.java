@@ -17,7 +17,7 @@ public class EmailTOMultipleRecipients {
 			MimeMessage message = new MimeMessage(SmtpConifgururation.configure());
 			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(to));
 			message.setSubject(subject);
-			message.setText("hello..\n you are selected in interview.");
+			message.setText("Hi, Bharat Good Mornning \n Welcome to the Team");
 
 			Transport.send(message);
 			System.out.println("mail send to all Recipients");
